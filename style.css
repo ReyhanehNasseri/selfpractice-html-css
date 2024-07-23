@@ -1,0 +1,43 @@
+body{
+    background-color: #e0e0e0;
+
+
+}
+div.innerborder{
+    background-color:#ebeded ;
+    width : 60%;
+    aspect-ratio: 3/2;
+    border:3px solid;
+    border-radius: 15px;
+    border-color: white;
+    margin : 4% 20%;
+
+}
+
+img.burger {
+    width: 452px;
+    height: 311px;
+    position: relative;
+    left: 403px;
+    top: 21px;
+    transform: rotate(10deg);
+}
+div.designspace{
+    background-color: #fcdb7e;
+    width : 35%;
+    aspect-ratio: 35/66;
+    float: right;
+    border:3px solid;
+    border-radius: 15px;
+    border-color:#fcdb7e;
+
+
+}
+img.hotdog {
+    position: relative;
+    width: 374px;
+    height: 403px;
+    left: -37px;
+    top: 253px;
+    transform: rotate(-1deg);
+}

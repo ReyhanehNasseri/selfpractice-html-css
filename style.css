@@ -25,7 +25,7 @@ img.burger {
 div.designspace{
     background-color: #fcdb7e;
     width : 35%;
-    aspect-ratio: 35/66;
+    aspect-ratio: 31/64;
     float: right;
     border:3px solid;
     border-radius: 15px;
@@ -81,7 +81,7 @@ input[type=text]{
     height: 24px;
     background-color: #fcdb7e;
     border:3px solid;
-    border-radius: 15px;
+    border-radius: 5px;
     border-color:#fcdb7e;
 }
 input[type=password]{
@@ -89,5 +89,33 @@ input[type=password]{
     height: 24px;
     background-color: #fcdb7e;
     border:3px solid;
-    border-radius: 15px;
+    border-radius: 5px;
     border-color:#fcdb7e;
+}
+
+div.submitbutton{
+    position: relative;
+    top: -36%;
+    right: -18%;
+}
+
+a{
+    border:3px solid;
+    text-decoration: none;
+    color: #383838;
+    border-radius: 15px;
+    border-color:#fc6a0f;
+    background-color: #fc6a0f;
+    font-family: "Calibri Light";
+    padding: 2px 20px;
+    font-size: 13px;
+    font-weight: 900;
+
+}
+a:hover{
+    background-color:#fcdb7e ;
+    border-color: #fcdb7e;
+    padding:  2px 23px;
+    color: black;
+}
+

@@ -41,3 +41,53 @@ img.hotdog {
     top: 253px;
     transform: rotate(-1deg);
 }
+
+div.logininfo{
+    border-color: black;
+    position: relative;
+    left: 56px;
+    top: -245px;
+
+
+}
+b.resturauntname{
+    font-family: "Comic Sans MS";
+    font-size: 37px;
+    color: #fc6a0f;
+}
+pre.welcome{
+    font-family: "Calibri Light";
+
+
+}
+b.login-text{
+    font-family: "Calibri Light";
+    font-size: 29px;
+    font-weight: 900;
+}
+pre.email-text{
+    font-family: "Calibri Light";
+    font-size: 12px;
+
+}
+pre.password-text{
+    font-family: "Calibri Light";
+    font-size: 12px;
+
+}
+
+input[type=text]{
+    width: 288px;
+    height: 24px;
+    background-color: #fcdb7e;
+    border:3px solid;
+    border-radius: 15px;
+    border-color:#fcdb7e;
+}
+input[type=password]{
+    width: 288px;
+    height: 24px;
+    background-color: #fcdb7e;
+    border:3px solid;
+    border-radius: 15px;
+    border-color:#fcdb7e;

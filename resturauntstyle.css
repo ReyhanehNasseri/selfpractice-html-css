@@ -1,0 +1,50 @@
+body{
+    background-color: #e0e0e0;
+}
+
+div.toolbar{
+    background-color:#ebeded;
+    width : 100%;
+    aspect-ratio: 100/5;
+    position: fixed;
+    direction: rtl;
+
+}
+a.exit{
+    position: relative;
+    background-color: #fc6a0f;
+    border: 3px solid;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border-color: #fc6a0f;
+    background-color: #fc6a0f;
+    font-family: iransans;
+    padding: 8px 41px;
+    font-size: 15px;
+    font-weight: normal;
+    top: 32%;
+    left: 2%;
+}
+b.logo{
+    font-family: "Comic Sans MS";
+    position: relative;
+    top: 26%;
+    left: -4%;
+    font-size: 20px;
+    color: #fc6a0f;
+
+}
+
+div.searchbox {
+    position: relative;
+    width: 31%;
+    aspect-ratio: 209 / 20;
+    top: -18%;
+    left: -38%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    
+}
+
+

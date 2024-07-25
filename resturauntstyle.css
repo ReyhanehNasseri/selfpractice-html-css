@@ -10,21 +10,26 @@ div.toolbar{
     direction: rtl;
 
 }
-a.exit{
+a.exit {
     position: relative;
-    background-color: #fc6a0f;
+    background-color: #f7a757;
     border: 3px solid;
     text-decoration: none;
     color: black;
     border-radius: 5px;
-    border-color: #fc6a0f;
-    background-color: #fc6a0f;
+    border-color: #f7a757;
+    background-color: #f7a757;
     font-family: iransans;
-    padding: 8px 41px;
+    padding: 12px 41px;
     font-size: 15px;
     font-weight: normal;
-    top: 32%;
-    left: 2%;
+    top: -44%;
+    left: -154%;
+}
+a.exit:hover{
+    background-color: #fcdb7e;
+    border-color: #fcdb7e;
+
 }
 b.logo{
     font-family: "Comic Sans MS";
@@ -43,8 +48,40 @@ div.searchbox {
     top: -18%;
     left: -38%;
     background-color: #e0e0e0;
+    border-color: #e0e0e0;
     border-radius: 8px;
     
 }
+
+img.magnifier{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    position: relative;
+    top: 22%;
+    left: -2%;
+    width: 5%;
+    aspect-ratio: 100 / 100;
+    float: right;
+
+}
+
+input.searchtext{
+    position: relative;
+    top: 11%;
+    left: -4%;
+    width: 86%;
+    aspect-ratio: 101 / 8;
+    background-color: #e0e0e0;
+    outline: none;
+    border: 0px none;
+
+
+
+}
+
 
 

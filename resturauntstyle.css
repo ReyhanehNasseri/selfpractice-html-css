@@ -83,5 +83,70 @@ input.searchtext{
 
 }
 
+::placeholder{
+    font-family: iransans;
+    font-size: 20px;
+}
+
+button.favourites {
+    position: relative;
+    margin: 17%;
+    left: 72%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border : 0px none;
+    border-radius: 8px;
+}
+
+button.favourites:focus{
+    background-color: #f7a757;
+}
+button.burgers {
+    position: absolute;
+    margin-top: 20%;
+    left: 88.5%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border: 0px none;
+    border-radius: 8px;
+}
+button.burgers:focus{
+    background-color: #f7a757;
+}
+button.pizzas {
+    position: absolute;
+    margin-top: 23%;
+    left: 88.5%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border: 0px none;
+    border-radius: 8px;
+}
+button.pizzas:focus{
+    background-color: #f7a757;
+}
+
+button.salad {
+    position: absolute;
+    margin-top: 26%;
+    left: 88.5%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border: 0px none;
+    border-radius: 8px;
+}
+button.salad:focus{
+    background-color: #f7a757;
+}
+
+
 
 

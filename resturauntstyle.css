@@ -1,5 +1,6 @@
 body{
     background-color: #e0e0e0;
+
 }
 
 div.toolbar{
@@ -7,7 +8,9 @@ div.toolbar{
     width : 100%;
     aspect-ratio: 100/5;
     position: fixed;
+    z-index: 100;
     direction: rtl;
+    margin-top: -8px;
 
 }
 a.exit {
@@ -91,13 +94,14 @@ input.searchtext{
 button.favourites {
     position: relative;
     margin: 17%;
-    left: 72%;
+    left: 71.5%;
     height: 30px;
     width: 136px;
     font-family: iransans;
     font-size: 20px;
     border : 0px none;
     border-radius: 8px;
+    position: fixed;
 }
 
 button.favourites:focus{
@@ -113,6 +117,7 @@ button.burgers {
     font-size: 20px;
     border: 0px none;
     border-radius: 8px;
+    position: fixed;
 }
 button.burgers:focus{
     background-color: #f7a757;
@@ -127,6 +132,7 @@ button.pizzas {
     font-size: 20px;
     border: 0px none;
     border-radius: 8px;
+    position: fixed;
 }
 button.pizzas:focus{
     background-color: #f7a757;
@@ -142,9 +148,106 @@ button.salad {
     font-size: 20px;
     border: 0px none;
     border-radius: 8px;
+    position: fixed;
 }
 button.salad:focus{
     background-color: #f7a757;
+}
+p.favourites {
+    position: absolute;
+    margin-top: 8%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+img.hams1 {
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    border-radius: 10px;
+}
+p.burgers {
+    position: absolute;
+    margin-top: 26%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+img.hams1p{
+    position: absolute;
+    top: 63%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+img.hams2{
+    position: absolute;
+    top: 90%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+p.pizza{
+    position: absolute;
+    margin-top: 59%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+img.pizza1{
+    position: absolute;
+    top: 129%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+img.pizza2{
+    position: absolute;
+    top: 156%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+p.salad{
+    position: absolute;
+    margin-top: 90%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+img.salad1{
+    position: absolute;
+    top: 193%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+
+div.space{
+    position: relative;
+    width: 200px;
+    height: 1744px;
+    background-color: #e0e0e0;
+
+
 }
 
 

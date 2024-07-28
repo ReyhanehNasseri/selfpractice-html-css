@@ -1,5 +1,6 @@
 body{
     background-color: #e0e0e0;
+
 }
 
 div.toolbar{
@@ -7,24 +8,31 @@ div.toolbar{
     width : 100%;
     aspect-ratio: 100/5;
     position: fixed;
+    z-index: 100;
     direction: rtl;
+    margin-top: -8px;
 
 }
-a.exit{
+a.exit {
     position: relative;
-    background-color: #fc6a0f;
+    background-color: #f7a757;
     border: 3px solid;
     text-decoration: none;
     color: black;
     border-radius: 5px;
-    border-color: #fc6a0f;
-    background-color: #fc6a0f;
+    border-color: #f7a757;
+    background-color: #f7a757;
     font-family: iransans;
-    padding: 8px 41px;
+    padding: 12px 41px;
     font-size: 15px;
     font-weight: normal;
-    top: 32%;
-    left: 2%;
+    top: -44%;
+    left: -154%;
+}
+a.exit:hover{
+    background-color: #fcdb7e;
+    border-color: #fcdb7e;
+
 }
 b.logo{
     font-family: "Comic Sans MS";
@@ -43,8 +51,205 @@ div.searchbox {
     top: -18%;
     left: -38%;
     background-color: #e0e0e0;
+    border-color: #e0e0e0;
     border-radius: 8px;
     
 }
+
+img.magnifier{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    position: relative;
+    top: 22%;
+    left: -2%;
+    width: 5%;
+    aspect-ratio: 100 / 100;
+    float: right;
+
+}
+
+input.searchtext{
+    position: relative;
+    top: 11%;
+    left: -4%;
+    width: 86%;
+    aspect-ratio: 101 / 8;
+    background-color: #e0e0e0;
+    outline: none;
+    border: 0px none;
+
+
+
+}
+
+::placeholder{
+    font-family: iransans;
+    font-size: 20px;
+}
+
+button.favourites {
+    position: relative;
+    margin: 17%;
+    left: 71.5%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border : 0px none;
+    border-radius: 8px;
+    position: fixed;
+}
+
+button.favourites:focus{
+    background-color: #f7a757;
+}
+button.burgers {
+    position: absolute;
+    margin-top: 20%;
+    left: 88.5%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border: 0px none;
+    border-radius: 8px;
+    position: fixed;
+}
+button.burgers:focus{
+    background-color: #f7a757;
+}
+button.pizzas {
+    position: absolute;
+    margin-top: 23%;
+    left: 88.5%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border: 0px none;
+    border-radius: 8px;
+    position: fixed;
+}
+button.pizzas:focus{
+    background-color: #f7a757;
+}
+
+button.salad {
+    position: absolute;
+    margin-top: 26%;
+    left: 88.5%;
+    height: 30px;
+    width: 136px;
+    font-family: iransans;
+    font-size: 20px;
+    border: 0px none;
+    border-radius: 8px;
+    position: fixed;
+}
+button.salad:focus{
+    background-color: #f7a757;
+}
+p.favourites {
+    position: absolute;
+    margin-top: 8%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+img.hams1 {
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    border-radius: 10px;
+}
+p.burgers {
+    position: absolute;
+    margin-top: 26%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+img.hams1p{
+    position: absolute;
+    top: 63%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+img.hams2{
+    position: absolute;
+    top: 90%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+p.pizza{
+    position: absolute;
+    margin-top: 59%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+img.pizza1{
+    position: absolute;
+    top: 129%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+img.pizza2{
+    position: absolute;
+    top: 156%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+p.salad{
+    position: absolute;
+    margin-top: 90%;
+    left: 42.5%;
+    height: 30px;
+    width: 200px;
+    font-family: iransans;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+img.salad1{
+    position: absolute;
+    top: 193%;
+    left: 23%;
+    border-radius: 10px;
+
+}
+
+div.space{
+    position: relative;
+    width: 200px;
+    height: 1744px;
+    background-color: #e0e0e0;
+
+
+}
+
+
 
 
